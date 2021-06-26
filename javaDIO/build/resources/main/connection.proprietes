@@ -1,0 +1,9 @@
+
+//CONNECT
+
+
+jdbc.driver=mysql
+db.address=localhost
+db.name=digital_innovation_one
+db.user.login=root
+db.user.password=140417Pp
