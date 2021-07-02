@@ -11,7 +11,10 @@ repositories {
 
 dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
+    //jdbc drive
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+    //jpa drive
+    compile group: 'javax.persistence', name:'java.persistence-api', version:'2.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
